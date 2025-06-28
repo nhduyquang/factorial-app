@@ -11,31 +11,33 @@ A simple app using streamlit to compute factorial of a number
     cd factorial-app
     ```
 
-2. Create and activate a virtual environment:
+2. Create a virtual environment:
+    ```terminal
+    python -m venv env
+    ```
+
+3. Activate the virtual environment:
     - 🐧 On macOS / Linuu:
     ```bash
-    python -m venv env
     source env/bin/activate
     ```
 
     - 🪟 On Windows (CMD):
     ```cmd
-    python -m venv env
-    .\env\Scripts\activate.bat
+    .\env\Scripts\activate
     ```
-
-    - 🪟 On Windows (PowerShell):
-    ```powershell
-    python -m venv env
-    .\env\Scripts\Activate.ps1
-    ```
-
-3. Install dependencies:
+    
+4. Install dependencies:
     ```terminal
     pip install -r requirements.txt
     ```
 
-4. Run the app:
+5. Run the app:
     ```terminal
     streamlit run app.py
+    ```
+
+6. Deactive the virtual environment
+    ```terminal
+    deactivate
     ```
